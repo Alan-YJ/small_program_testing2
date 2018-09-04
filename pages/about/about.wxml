@@ -1,0 +1,6 @@
+<view class='about-wrapper page-wrapper'>
+    <image src='/images/logo.png'></image>
+    <text>电影周周看</text>
+    <navigator url='/pages/weeky/weeky' open-type="switchTab" hover-class="navigator-hover"><text>每周一部好片</text></navigator>
+    <text>我的微信：</text>
+</view>

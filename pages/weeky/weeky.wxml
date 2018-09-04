@@ -1,0 +1,24 @@
+<view class='weeky-wrapper page-wrapper'>
+    <!-- <view wx:for='{{WeekMovieList}}' class='item-wrapper'>
+        <view>
+            <image src='{{item.imagePath}}'></image>
+        </view>
+        <view>
+            <text>{{item.name}} <text wx:if='{{item.recommend}}' class='recommend'>强烈推荐</text> </text>
+            <text>点评：{{item.comment}}</text>
+        </view>
+    </view> -->
+    <swiper indicator-dots="{{true}}">
+        <swiper-item wx:for='{{WeekMovieList}}'>
+            <view class='page-wrapper'>
+                <view>
+                    <image src='{{item.imagePath}}'></image>
+                </view>
+                <view>
+                    <text>{{item.name}} <text wx:if='{{item.recommend}}' class='recommend'>强烈推荐</text> </text>
+                    <text>点评：{{item.comment}}</text>
+                </view>
+            </view>
+        </swiper-item>
+    </swiper>
+</view>

@@ -1,0 +1,27 @@
+.page-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height:100vh;
+    align-items:center;
+}
+
+.page-wrapper image{
+    width:375rpx;
+    height:375rpx;
+    border-radius: 50%;
+}
+.page-wrapper text{
+    display: block;
+}
+text .recommend{
+    display: inline;
+    background-color:red;
+    border-radius: 8rpx;
+    padding:5rpx 10rpx;
+    color:white;
+    position: relative;
+    top:-20px;
+    right: 0px;
+    font-size:14rpx;
+}

@@ -1,0 +1,33 @@
+.item-wrapper{
+    display: flex;
+    margin-top:20rpx;
+}
+.item-wrapper view:first-child{
+    width:200rpx;
+}
+.item-wrapper view:last-child{
+    margin-left:20rpx;
+    flex:1;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.item-wrapper view:last-child text .recommend{
+    background-color:red;
+    border-radius: 8rpx;
+    padding:5rpx 10rpx;
+    color:white;
+    position: relative;
+    top:-20px;
+    right: 0px;
+    font-size:14rpx;
+}
+.item-wrapper image{
+    width:200rpx;
+    height:200rpx;
+}
+
+swiper{
+    height:100vh;
+    width:100%;
+}
